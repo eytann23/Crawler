@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+    <form id="scraping__form">
+        <label for="start-url">URL:</label>
+        <input id="start-url" type="text" placeholder="Start URL"/>
+        <label for="max-depth">Depth:</label>
+        <input id="max-depth" type="text" placeholder="Max Depth"/>
+        <label for="max-total-pages">Total Pages:</label>
+        <input class="max-total-pages" type="text" placeholder="Max Total Pages"/>
+        <button id="scrape__button">Scrape</button>
+    </form>
+
+    <div id="data__container"></div>
+
+    <script type = "module" src="./js/dataComponent.js"></script>
+    <script type="module" src="./js/script.js"></script>
+    
+</body>
+</html>
